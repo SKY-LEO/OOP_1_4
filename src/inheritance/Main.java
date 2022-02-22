@@ -14,7 +14,7 @@ public class Main {
         aspirant1.setGroup(38732690);
         aspirant1.setAverage_mark(9.9);
         aspirant1.setScientific_work("Телескоп Вебера");
-        Aspirant aspirant2 = new Aspirant("Алексей", "Романов", 98362019, 10, "Телескоп Хаббл");
+        Student aspirant2 = new Aspirant("Алексей", "Романов", 98362019, 10, "Телескоп Хаббл");
         Student[] students = {student1, student2, aspirant1, aspirant2};
         getSalary(students);
     }
