@@ -1,7 +1,7 @@
 package inheritance;
 
 public class Aspirant extends Student {
-    public String scientific_work;
+    String scientific_work;
 
     public Aspirant() {
 
@@ -20,6 +20,7 @@ public class Aspirant extends Student {
         return scientific_work;
     }
 
+    @Override
     public int getScholarship() {
         if (this.average_mark == 10) {
             return 200;

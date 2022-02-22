@@ -19,9 +19,9 @@ public class Main {
         getSalary(students);
     }
 
-    private static void getSalary(Student[] students){
-        for(int i = 0; i< students.length; i++){
-            System.out.println(students[i].getFirstName()+ " "+students[i].getLastName()+" получит "+students[i].getScholarship()+ " рублей");
+    private static void getSalary(Student[] students) {
+        for (Student student : students) {
+            System.out.println(student.getFirstName() + " " + student.getLastName() + " получит " + student.getScholarship() + " рублей");
         }
     }
 }

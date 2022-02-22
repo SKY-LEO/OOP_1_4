@@ -1,10 +1,10 @@
 package inheritance;
 
 public class Student {
-    public String firstName;
-    public String lastName;
-    public int group;
-    public double average_mark;
+    String firstName;
+    String lastName;
+    int group;
+    double average_mark;
 
     public Student() {
 
