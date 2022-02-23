@@ -6,50 +6,50 @@ public class Student {
     int group;
     double average_mark;
 
-    Student() {
+    public Student() {
 
     }
 
-    Student(String firstName, String lastName, int group, double average_mark) {
+    public Student(String firstName, String lastName, int group, double average_mark) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.group = group;
         this.average_mark = average_mark;
     }
 
-    void setFirstName(String firstName) {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    void setLastName(String lastName) {
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
-    void setGroup(int group) {
+    public void setGroup(int group) {
         this.group = group;
     }
 
-    void setAverage_mark(double average_mark) {
+    public void setAverage_mark(double average_mark) {
         this.average_mark = average_mark;
     }
 
-    String getFirstName() {
+    public String getFirstName() {
         return firstName;
     }
 
-    String getLastName() {
+    public String getLastName() {
         return lastName;
     }
 
-    int getGroup() {
+    public int getGroup() {
         return group;
     }
 
-    double getAverage_mark() {
+    public double getAverage_mark() {
         return average_mark;
     }
 
-    int getScholarship() {
+    public int getScholarship() {
         if (this.average_mark == 10) {
             return 100;
         } else {
